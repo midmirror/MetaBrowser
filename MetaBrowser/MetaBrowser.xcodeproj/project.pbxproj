@@ -13,6 +13,17 @@
 		802456071EF8B706007E7B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802456061EF8B706007E7B5E /* Assets.xcassets */; };
 		8024560A1EF8B706007E7B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802456081EF8B706007E7B5E /* LaunchScreen.storyboard */; };
 		802456161EF8B71C007E7B5E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802456131EF8B71C007E7B5E /* HomeController.swift */; };
+		802456181EF8BACE007E7B5E /* WebBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802456171EF8BACE007E7B5E /* WebBrowserController.swift */; };
+		8024561A1EF8C8B0007E7B5E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802456191EF8C8B0007E7B5E /* WebView.swift */; };
+		8047EFA01EFBD24B0079A485 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047EF9F1EFBD24B0079A485 /* NavigationBar.swift */; };
+		8047EFA21EFBD8020079A485 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047EFA11EFBD8020079A485 /* RootNavigationController.swift */; };
+		8047EFA41EFBD8AB0079A485 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047EFA31EFBD8AB0079A485 /* Color.swift */; };
+		809D419C1EFB63C200EC0EAB /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809D419B1EFB63C200EC0EAB /* Debug.swift */; };
+		809D419E1EFB666A00EC0EAB /* BottomToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809D419D1EFB666A00EC0EAB /* BottomToolbar.swift */; };
+		809D41A21EFB6B8900EC0EAB /* MetaBrowserIcon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 809D41A11EFB6B8900EC0EAB /* MetaBrowserIcon.ttf */; };
+		809D41A61EFB6C3D00EC0EAB /* IconCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809D41A41EFB6C3D00EC0EAB /* IconCode.swift */; };
+		809D41A71EFB6C3D00EC0EAB /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809D41A51EFB6C3D00EC0EAB /* IconFont.swift */; };
+		809D41A91EFB747000EC0EAB /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809D41A81EFB747000EC0EAB /* UI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		802456091EF8B706007E7B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8024560B1EF8B706007E7B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		802456131EF8B71C007E7B5E /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		802456171EF8BACE007E7B5E /* WebBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBrowserController.swift; sourceTree = "<group>"; };
+		802456191EF8C8B0007E7B5E /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		8047EF9F1EFBD24B0079A485 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		8047EFA11EFBD8020079A485 /* RootNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
+		8047EFA31EFBD8AB0079A485 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		809D419B1EFB63C200EC0EAB /* Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		809D419D1EFB666A00EC0EAB /* BottomToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomToolbar.swift; sourceTree = "<group>"; };
+		809D41A11EFB6B8900EC0EAB /* MetaBrowserIcon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MetaBrowserIcon.ttf; sourceTree = "<group>"; };
+		809D41A41EFB6C3D00EC0EAB /* IconCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCode.swift; sourceTree = "<group>"; };
+		809D41A51EFB6C3D00EC0EAB /* IconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
+		809D41A81EFB747000EC0EAB /* UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				802456111EF8B71C007E7B5E /* Class */,
+				809D419F1EFB6B8900EC0EAB /* Resource */,
 				802455FF1EF8B706007E7B5E /* AppDelegate.swift */,
 				802456011EF8B706007E7B5E /* ViewController.swift */,
 				802456031EF8B706007E7B5E /* Main.storyboard */,
@@ -70,6 +93,7 @@
 		802456111EF8B71C007E7B5E /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				809D41991EFB639900EC0EAB /* Module */,
 				802456121EF8B71C007E7B5E /* Controller */,
 				802456141EF8B71C007E7B5E /* Model */,
 				802456151EF8B71C007E7B5E /* View */,
@@ -81,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				802456131EF8B71C007E7B5E /* HomeController.swift */,
+				802456171EF8BACE007E7B5E /* WebBrowserController.swift */,
+				8047EFA11EFBD8020079A485 /* RootNavigationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -95,8 +121,55 @@
 		802456151EF8B71C007E7B5E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				802456191EF8C8B0007E7B5E /* WebView.swift */,
+				809D419D1EFB666A00EC0EAB /* BottomToolbar.swift */,
+				8047EF9F1EFBD24B0079A485 /* NavigationBar.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		809D41991EFB639900EC0EAB /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				809D41A31EFB6C3500EC0EAB /* IconFont */,
+				809D419A1EFB63B700EC0EAB /* Util */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		809D419A1EFB63B700EC0EAB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				809D419B1EFB63C200EC0EAB /* Debug.swift */,
+				809D41A81EFB747000EC0EAB /* UI.swift */,
+				8047EFA31EFBD8AB0079A485 /* Color.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		809D419F1EFB6B8900EC0EAB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				809D41A01EFB6B8900EC0EAB /* ttf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		809D41A01EFB6B8900EC0EAB /* ttf */ = {
+			isa = PBXGroup;
+			children = (
+				809D41A11EFB6B8900EC0EAB /* MetaBrowserIcon.ttf */,
+			);
+			path = ttf;
+			sourceTree = "<group>";
+		};
+		809D41A31EFB6C3500EC0EAB /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				809D41A41EFB6C3D00EC0EAB /* IconCode.swift */,
+				809D41A51EFB6C3D00EC0EAB /* IconFont.swift */,
+			);
+			path = IconFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +234,7 @@
 				8024560A1EF8B706007E7B5E /* LaunchScreen.storyboard in Resources */,
 				802456071EF8B706007E7B5E /* Assets.xcassets in Resources */,
 				802456051EF8B706007E7B5E /* Main.storyboard in Resources */,
+				809D41A21EFB6B8900EC0EAB /* MetaBrowserIcon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +246,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				802456021EF8B706007E7B5E /* ViewController.swift in Sources */,
+				809D41A71EFB6C3D00EC0EAB /* IconFont.swift in Sources */,
+				809D419C1EFB63C200EC0EAB /* Debug.swift in Sources */,
+				809D41A91EFB747000EC0EAB /* UI.swift in Sources */,
+				8047EFA41EFBD8AB0079A485 /* Color.swift in Sources */,
+				8024561A1EF8C8B0007E7B5E /* WebView.swift in Sources */,
+				8047EFA21EFBD8020079A485 /* RootNavigationController.swift in Sources */,
+				8047EFA01EFBD24B0079A485 /* NavigationBar.swift in Sources */,
 				802456001EF8B706007E7B5E /* AppDelegate.swift in Sources */,
+				809D419E1EFB666A00EC0EAB /* BottomToolbar.swift in Sources */,
+				809D41A61EFB6C3D00EC0EAB /* IconCode.swift in Sources */,
 				802456161EF8B71C007E7B5E /* HomeController.swift in Sources */,
+				802456181EF8BACE007E7B5E /* WebBrowserController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MetaBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D Debug";
 				PRODUCT_BUNDLE_IDENTIFIER = com.midmirror.MetaBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -335,6 +420,7 @@
 				802456101EF8B706007E7B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
